@@ -1,0 +1,73 @@
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      text-align: right;
+    }
+    
+    body{
+      padding-top: 50px;
+    }
+    .img-thumbnail{
+      width: 60px;
+      height: 60px;
+      border: solid;
+    }
+    .breadcrumb{
+      background-color: #d8ecf1;
+      height: 45px;
+    }
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+
+    .setBackground{
+      display: block;
+      text-align: center;
+      height: 450px;
+      padding-top: 200px;
+      background-image: url(https://static.wixstatic.com/media/dfbaa2894d5149e58ffc1dc844e8f272.jpg/v1/fill/w_980,h_900,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01/dfbaa2894d5149e58ffc1dc844e8f272.webp);
+      background-size: 900px 450px;
+      background-position: left; 
+      background-repeat: no-repeat;
+    }
+
+    .intro{
+      background-color: black;
+      opacity: 0.4;
+      color: white;
+      height: 230px;
+    }
+    .profilephoto{
+      padding-top: 10px;
+      height: 200px;
+      padding-bottom: 20px;
+    }
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: black;
+      color: white;
+      padding: 5px;
+    }
+
+   /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        /* padding: 15px; */
+      }
+      .row.content {height:auto;} 
+    }
+    .well{
+        height: 10px;
+        width: 100px;
+        text-align: center;
+        padding-top: 2px;
+        background-color: deepskyblue;
+        float: left;
+    }
