@@ -8,6 +8,9 @@
     body{
       padding-top: 50px;
     }
+    .row.content{
+      display: flex;
+    }
     .img-thumbnail{
       width: 60px;
       height: 60px;
@@ -17,13 +20,10 @@
       background-color: #d8ecf1;
       height: 45px;
     }
-    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-    .row.content {height: 450px}
     
     /* Set gray background color and 100% height */
     .sidenav {
       background-color: #f1f1f1;
-      height: 100%;
     }
 
     .setBackground{
