@@ -2,15 +2,15 @@
     .navbar {
       margin-bottom: 0;
       border-radius: 0;
-      text-align: right;
+      /* text-align: right; */
     }
-    
+    #myNavbar{
+      margin-right: 20px;
+    }
     body{
       padding-top: 50px;
     }
-    .row.content{
-      display: flex;
-    }
+
     .img-thumbnail{
       width: 60px;
       height: 60px;
@@ -24,19 +24,22 @@
     /* Set gray background color and 100% height */
     .sidenav {
       background-color: #f1f1f1;
-      padding: 10px;
+      /* padding: 10px; */
       font-family: sans-serif;
+      /* margin-left: -10px; */
     }
 
     .setBackground{
-      display: block;
+      /* display: block; */
       text-align: center;
       height: 450px;
       padding-top: 230px;
       background-image: url(https://static.wixstatic.com/media/dfbaa2894d5149e58ffc1dc844e8f272.jpg/v1/fill/w_980,h_900,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01/dfbaa2894d5149e58ffc1dc844e8f272.webp);
-      background-size: 900px 450px;
+      background-size: 100% 450px;
       background-position: left; 
       background-repeat: no-repeat;
+      margin-left: -15px;
+      margin-right: -15px;
     }
 
     .intro{
@@ -47,23 +50,16 @@
     }
     .profilephoto{
       padding-top: 10px;
-      height: 200px;
+      height: auto;
       padding-bottom: 20px;
+      width: 70%;
+
     }
     /* Set black background color, white text and some padding */
     footer {
       background-color: black;
       color: white;
       padding: 5px;
-    }
-
-   /* On small screens, set height to 'auto' for sidenav and grid */
-    @media screen and (max-width: 767px) {
-      .sidenav {
-        height: auto;
-        /* padding: 15px; */
-      }
-      .row.content {height:auto;} 
     }
     .well{
         height: 25px;
@@ -78,7 +74,7 @@
     }
     .image{
       width: 50px;
-      height: 50px;
+      height: 50px; 
     }
     #websites{
       text-align: right;
@@ -135,3 +131,17 @@
     {
       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
+
+       /* On small screens, set height to 'auto' for sidenav and grid */
+   @media screen and (max-width: 767px) {
+    .sidenav {
+      height: auto;
+      width: 100%;
+    }
+    .row.content {height:auto;}
+  }
+  @media only screen and (min-width: 768px){
+  .row.content{
+    display: flex;
+  }
+}
