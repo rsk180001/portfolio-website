@@ -24,13 +24,14 @@
     /* Set gray background color and 100% height */
     .sidenav {
       background-color: #f1f1f1;
+      padding: 10px;
     }
 
     .setBackground{
       display: block;
       text-align: center;
       height: 450px;
-      padding-top: 200px;
+      padding-top: 230px;
       background-image: url(https://static.wixstatic.com/media/dfbaa2894d5149e58ffc1dc844e8f272.jpg/v1/fill/w_980,h_900,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01/dfbaa2894d5149e58ffc1dc844e8f272.webp);
       background-size: 900px 450px;
       background-position: left; 
@@ -41,7 +42,7 @@
       background-color: black;
       opacity: 0.4;
       color: white;
-      height: 230px;
+      height: 200px;
     }
     .profilephoto{
       padding-top: 10px;
@@ -64,10 +65,28 @@
       .row.content {height:auto;} 
     }
     .well{
-        height: 10px;
-        width: 100px;
+        height: 25px;
+        width: 95px;
         text-align: center;
         padding-top: 2px;
         background-color: deepskyblue;
         float: left;
+    }
+    .blank{
+      height: 30px;
+    }
+    .image{
+      width: 50px;
+      height: 50px;
+    }
+    #websites{
+      text-align: right;
+    }
+    #websitenames
+    {
+      text-align: left  ;
+    }
+    .nameheight
+    {
+      height: 50px;
     }
