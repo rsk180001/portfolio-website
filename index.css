@@ -25,6 +25,7 @@
     .sidenav {
       background-color: #f1f1f1;
       padding: 10px;
+      font-family: sans-serif;
     }
 
     .setBackground{
@@ -121,4 +122,16 @@
     }
     .boldtext{
       font-weight: bold;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    h2
+    {
+      font-family: sans-serif;
+    }
+    nav{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    h1,p
+    {
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
