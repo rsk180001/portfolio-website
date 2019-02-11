@@ -90,3 +90,35 @@
     {
       height: 50px;
     }
+    .size25px{
+      font-size: 25px;
+    }
+    .size9px
+    {
+      font-size: 9px;
+    }
+    .size19px{
+      font-size: 19px;
+    }
+    .size20px{
+      font-size: 20px;
+    }
+    .size18px{
+      font-size: 18px;
+    }
+    .size12px{
+      font-size: 12px;
+    }
+    .textright{
+      text-align: right;
+    }
+    .textleft{
+      text-align: left;
+    }
+    .textcenter
+    {
+      text-align: center;
+    }
+    .boldtext{
+      font-weight: bold;
+    }
